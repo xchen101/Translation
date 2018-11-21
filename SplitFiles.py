@@ -21,7 +21,7 @@ def ReadLogFileEntries (logfilename,outName,badlines,StoppLine) :
            if linenumber >= StoppLine:
               linenumber = 0 
 
-ReadLogFileEntries("《二指禅》翻译专用.srt","English.srt",[1,2],4)
+ReadLogFileEntries(".srt","English.srt",[1,2],4)
 #numbers in the square bracket is what's being taken out. 
 #ReadLogFileEntries("YGWS_Sub_full.txt","outputfileEnglish.txt",[3,5],6)
 #ReadLogFileEntries("YGWS_Sub_full.txt","outputfileChinese.txt",[4,5],6)
